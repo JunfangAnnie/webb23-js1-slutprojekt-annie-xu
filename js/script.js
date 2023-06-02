@@ -1,4 +1,4 @@
-const API = "9b34e6d0943eb8e34f220259e3c87f39";
+const API = "0457fe169010ceae06f920cc8b7c6d58";
 const URL = "https://api.openweathermap.org/data/2.5";
 
 const getCurrentWeather = async (city) => {
