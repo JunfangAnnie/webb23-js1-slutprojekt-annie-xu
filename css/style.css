@@ -1,0 +1,34 @@
+.container {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+#forecast {
+	text-align: center;
+	max-width: 90vw;
+	width: 50vmax;
+}
+
+#forecast .temp {
+	font-size: 1.8em;
+}
+
+#forecast .wind {
+	font-size: 1.3em;
+}
+
+#forecast ul.conditions {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	padding: 0;
+}
