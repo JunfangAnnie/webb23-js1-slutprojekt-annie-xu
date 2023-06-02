@@ -24,7 +24,7 @@ const renderWarning = msg => renderAlert(msg, 'warning');
 
 const renderCurrentWeather = data => {
 	const conditions = data.weather.map(condition =>
-		`<li><img src="http://openweathermap.org/img/wn/${condition.icon}@2x.png" title="${condition.description}"></li>`
+		`<li><img src="https://openweathermap.org/img/wn/${condition.icon}@2x.png" title="${condition.description}"></li>`
 	);
 
     console.log (data)
@@ -32,8 +32,8 @@ const renderCurrentWeather = data => {
 	const now = Math.round(Date.now() / 1000);
 
 	const banner = (now > data.sys.sunrise && now < data.sys.sunset)
-		? '/img/day.png'
-		: '/img/night.png';
+		? 'img/day.png'
+		: 'img/night.png';
 
 	const freshness = new Date( data.dt * 1000 );
 
