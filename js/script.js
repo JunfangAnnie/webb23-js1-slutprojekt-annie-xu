@@ -1,5 +1,5 @@
 const API = "0457fe169010ceae06f920cc8b7c6d58";
-const URL = "https://api.openweathermap.org/data/2.5";
+const URL = "http://api.openweathermap.org/data/2.5";
 
 const getCurrentWeather = async (city) => {
 	const response = await fetch(`${URL}/weather?q=${city}&units=metric&appid=${API}&lang=sv`);
